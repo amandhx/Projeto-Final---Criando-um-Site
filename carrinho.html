@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique Le'Tramont</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/carrinho.css">
+</head>
+<body>
+
+<!-- ____________________________________________________________________________________________ -->
+
+    <!-- DROPDOWN (MENU DE NAVEGAÇÃO) -->
+    <nav>
+        <div class="logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
+        <ul>
+            <li><a href="boutique.html">Home</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li class="dropdown">
+                <a href="#criacoes" class="dropbtn">Criações</a>
+                    <ul class="dropdown-content">
+                        <li><a href="vestidos.html">Vestidos</a></li>
+                        <li><a href="sapatos.html">Sapatos</a></li>
+                        <li><a href="bolsas.html">Bolsas</a></li>
+                    </ul>
+            </li>
+            <li><a href="carrinho.html">Carrinho</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+<!-- ___________________________________________________________________________________________ -->
+
+<!-- CARRINHO DE COMPRAS -->
+
+<section class="itens"> <!-- seção do carrinho -->
+<h2>Vestidos:</h2>
+    <table> <!-- tabela de produtos no carrinho -->
+        <thead>
+            <tr>
+                <th>Imagem</th>
+                <th>Itens</th>
+                <th>Valor</th>
+                <th>Tamanho</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Vestido 1 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidoamarelo.png" alt="" width="35px">
+                </td>
+                <td>Vestido Bella Gold</td>
+                <td>R$: 650,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 2 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidoazulbebe.png" alt="" width="35px"></td>
+                <td>Vestido Cinderela</td>
+                <td>R$: 1.150,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 3 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidobege.png" alt="" width="35px"></td>
+                <td>Vestido Petie</td>
+                <td>R$: 850,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 4 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidobranco.png" alt="" width="35px"></td>
+                <td>Vestido Branca da Neve</td>
+                <td>R$: 750,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 5 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidolaranja.png" alt="" width="35px"></td>
+                <td>Vestido Pocah</td>
+                <td>R$: 650,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 6 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidolilas.png" alt="" width="35px"></td>
+                <td>Vestido Rapunzel</td>
+                <td>R$: 680,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 7 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidopreto.png" alt="" width="35px"></td>
+                <td>Vestido Dama da Noite</td>
+                <td>R$: 550,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 8 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidorose.png" alt="" width="35px"></td>
+                <td>Vestido Aurora</td>
+                <td>R$: 1.000,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 9 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidoroyal.png" alt="" width="35px"></td>
+                <td>Vestido Noite Estrelada</td>
+                <td>R$: 890,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 10 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidoverde.png" alt="" width="35px"></td>
+                <td>Vestido Tiana</td>
+                <td>R$: 700,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 11 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidovermelho.png" alt="" width="35px"></td>
+                <td>Vestido Sangue Real</td>
+                <td>R$: 800,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Vestido 12 -->
+            <tr>
+                <td> <img src="img/vestidos/vestidovinho.png" alt="" width="35px"></td>
+                <td>Vestido da Corte</td>
+                <td>R$: 1.250,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+<section class="itens"> <!-- seção do carrinho -->
+    <h2>Bolsas:</h2>
+        <table> <!-- tabela de produtos no carrinho -->
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Itens</th>
+                    <th>Valor</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>     
+            <!-- Bolsa 1 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaAzulFlores.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Floral Azul</td>
+                <td>R$: 250,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 2 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaBegeGucci.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Bege</td>
+                <td>R$: 450,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 3 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaBranca.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Branca</td>
+                <td>R$: 200,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 4 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaBrancaFlores.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Floral Branca</td>
+                <td>R$: 250,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 5 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaDior.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Preta Estampada</td>
+                <td>R$: 550,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 6 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaDourada.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Nó Dourada</td>
+                <td>R$: 150,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 7 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaJacquemusPreta.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Couro Preta</td>
+                <td>R$: 400,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 8 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaMarrom.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Caremelo</td>
+                <td>R$: 250,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 9 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaMarromYSL.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Marrom Verniz</td>
+                <td>R$: 350,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 10 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaRosaYSL.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Rosa Clara</td>
+                <td>R$: 250,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 11 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaVermelhaPrada.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Escarlate </td>
+                <td>R$: 300,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Bolsa 12 -->
+            <tr>
+                <td> <img src="img/bolsas/BolsaVinho.png.jpeg" alt="" width="35px"></td>
+                <td>Bolsa Vinho</td>
+                <td>R$: 250,00</td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+<section class="itens"> <!-- seção do carrinho -->
+    <h2>Sapatos:</h2>
+        <table> <!-- tabela de produtos no carrinho -->
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Itens</th>
+                    <th>Valor</th>
+                    <th>Tamanho</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>             
+            <!-- Sapato 1 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoAzul.png.jpeg" alt="" width="35px"></td>
+                <td>Salto Azul Bebe</td>
+                <td>R$: 400,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>33</option>
+                    <option>34</option>
+                    <option>35</option>
+                    <option>36</option>
+                    <option>37</option>
+                    <option>38</option>
+                    <option>39</option>
+                    <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 2 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoBranco.png.jpeg" alt="" width="35px"></td>
+                <td>Salto Branco com Margarida</td>
+                <td>R$: 450,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 3 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoChannel.png.jpeg" alt="" width="35px"></td>
+                <td>Salto Flor Preto e Branco</td>
+                <td>R$: 300,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 4 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoMarrom.png.jpeg" alt="" width="35px"></td>
+                <td>Salto Caramelo</td>
+                <td>R$: 350,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 5 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoPrata.png.jpeg" alt="" width="35px"></td>
+                <td>Salto Prata</td>
+                <td>R$: 250,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                    <option>33</option>
+                    <option>34</option>
+                    <option>35</option>
+                    <option>36</option>
+                    <option>37</option>
+                    <option>38</option>
+                    <option>39</option>
+                    <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 6 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoPretoBrilho.png.jpeg" alt="" width="35px"></td>
+                <td>Salto com Brilho</td>
+                <td>R$: 650,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 7 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoRosaBorboletas.png.jpeg" alt="" width="35px"></td>
+                <td>Salto Borboletas</td>
+                <td>R$: 700,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 8 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoRose.png.jpeg" alt="" width="35px"></td>
+                <td>Salto Coquette Rose</td>
+                <td>R$: 650,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 9 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoVersace.png.jpeg" alt="" width="35px"></td>
+                <td>Salto Preto Veludo</td>
+                <td>R$: 550,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 10 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoVinho.png.jpeg" alt="" width="35px"></td>
+                <td>Salto Vinho</td>
+                <td>R$: 430,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 11 -->
+            <tr>
+                <td> <img src="img/sapatos/TamancoFlores.png.jpeg" alt="" width="35px"></td>
+                <td>Tamanco de Flores</td>
+                <td>R$: 250,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+            <!-- Sapato 12 -->
+            <tr>
+                <td> <img src="img/sapatos/TenisAllStar.png.jpeg" alt="" width="35px"></td>
+                <td>Tenis Vaquinha</td>
+                <td>R$: 300,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="adicionar-produto">Adicionar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<hr>
+<!-- ______________________________________________________________________________________________________________________________ -->
+
+<!-- COMPRAS -->
+<h2>Seu Carrinho:</h2>
+<section class="carrinho">
+    <table>
+        <thead>
+            <tr>
+                <th>Imagem</th>
+                <th>Itens</th>
+                <th>Valor</th>
+                <th>Tamanho</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img src="img/vestidos/vestidolilas.png" alt="" width="35px"></td>
+                <td>Vestido Rapunzel</td>
+                <td>R$: 680,00</td>
+                <td>M</td>
+                <td>
+                    <button class="remover-produto">Remover</button>
+                </td>
+            </tr>
+            <!-- Sapato 7 -->
+            <tr>
+                <td> <img src="img/sapatos/SaltoRosaBorboletas.png.jpeg" alt="" width="35px"></td>
+                <td>Salto Borboletas</td>
+                <td>R$: 700,00</td>
+                <td>
+                    <label for="tamanho"></label>
+                    <select id="tamanho">
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                </select>
+                </td>
+                <td>
+                    <button class="remover-produto">Remover</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <!-- TOTAL FINAL -->
+    <div class="total-final">
+        <h3>Total Final: R$:1.380,00</h3>
+    </div>
+</section>
+</main>
+
+<!-- ___________________________________________________________________________________________ -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>Email: boutiqueletramont@gmail.com</p>
+                <p>Telefone: (19)92422-2688</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Endereço</h4>
+                <p>Loja 1</p>
+                <p>Endereço: Rua Campbell, 222 - Avenida Brigadeiro Faria Lima<br>São Paulo-SP</p>
+                <br>
+                <p>Loja 2</p>
+                <p>Endereço: Rua Flor de Lis, 424 - Cambuí<br>Campinas-SP</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Siga-nos</h4>
+                <div class="social-links">
+                    <a href="">Facebook</a><br></br>
+                    <a href="">Instagram</a><br></br>
+                    <a href="">Twitter/X</a><br></br>
+                    <a href="">Linkedln</a><br></br>
+                    <a href="">Tiktok</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy;2024 Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+<!-- ___________________________________________________________________________________________ -->
